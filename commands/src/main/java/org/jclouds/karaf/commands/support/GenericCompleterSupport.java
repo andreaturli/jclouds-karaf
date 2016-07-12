@@ -22,7 +22,7 @@ import org.apache.felix.service.command.CommandSession;
 import org.apache.karaf.shell.console.Completer;
 import org.apache.karaf.shell.console.completer.ArgumentCompleter;
 import org.apache.karaf.shell.console.completer.StringsCompleter;
-import org.apache.karaf.shell.console.jline.CommandSessionHolder;
+import org.apache.karaf.shell.console.CommandSessionHolder;
 import org.jclouds.karaf.cache.CacheProvider;
 import org.jclouds.karaf.cache.Cacheable;
 

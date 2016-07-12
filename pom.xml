@@ -208,7 +208,8 @@ limitations under the License.
     <junit.version>4.8.2</junit.version>
     <jzlib.bundle.version>1.0.7_1</jzlib.bundle.version>
     <jzlib.version>1.0.7</jzlib.version>
-    <karaf.version>2.3.2</karaf.version>
+    <karaf.version>4.0.4</karaf.version>
+    <karaf.tooling.version>2.3.12</karaf.tooling.version>
     <net.oauth.bundle.version>20100527_1</net.oauth.bundle.version>
     <netty.bundle.version>3.3.1.Final</netty.bundle.version>
     <osgi.version>4.3.0</osgi.version>
@@ -559,13 +560,13 @@ limitations under the License.
       <dependency>
         <groupId>org.apache.karaf.tooling.exam</groupId>
         <artifactId>org.apache.karaf.tooling.exam.options</artifactId>
-        <version>${karaf.version}</version>
+        <version>${karaf.tooling.version}</version>
       </dependency>
 
       <dependency>
         <groupId>org.apache.karaf.tooling.exam</groupId>
         <artifactId>org.apache.karaf.tooling.exam.container</artifactId>
-        <version>${karaf.version}</version>
+        <version>${karaf.tooling.version}</version>
       </dependency>
 
       <dependency>
