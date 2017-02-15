@@ -27,6 +27,7 @@ limitations under the License.
 
     <feature name='jclouds' description='jclouds' version='${project.version}' resolver='(obr)'>
         <feature version='${project.version}'>jclouds-guice</feature>
+        <bundle dependency="true">mvn:javax.ws.rs/javax.ws.rs-api/${jax-rs-api.version}</bundle>
         <bundle dependency='true'>mvn:com.google.guava/guava/${guava.version}</bundle>
         <bundle dependency='true'>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.oauth-commons/${net.oauth.bundle.version}</bundle>
         <bundle dependency='true'>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.jersey-core/${jersey.bundle.version}</bundle>
